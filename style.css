@@ -1,0 +1,99 @@
+/*  Estilização dos inputs  */
+input{
+    background-color: #242323;
+    color: #f0e7e7;
+
+    font-size: 30px;
+    font-family: "Roboto";
+    text-align: end;
+
+    border:3px solid;
+    border-radius: 5px;
+
+    padding: 5px;
+}
+
+#input-calc:focus{
+    box-shadow: 0;
+    border: 2 solid;
+    border-color: #c7660b;
+    outline: 0;
+}
+#output-calc{
+    border-color: #b2afaf;
+}
+
+
+
+/*  Dimensionando posicionamento*/
+body{
+    width: 30%;
+    margin: 100px auto ;
+    padding: 20px;
+    padding-bottom: 0px;
+
+    background-color: #242323;
+}
+
+#section-display{
+    display: grid;
+}
+
+#section-keys{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+
+
+/*  Estilização dos botões  */
+button{
+    box-shadow: #00000040 0px 54px 55px, 
+    #0000001f 0px -12px 30px,
+    #0000001f 0px 4px 6px, 
+    #0000002b 0px 12px 13px, 
+    #00000017 0px -3px 5px;
+
+    background-color: #1a1919;
+    color: #c7660b;
+
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: bold;
+
+    border: none;
+    border-radius: 10px;
+
+    height: 80px;
+}
+
+.keysNumber{
+    color: white;
+}
+
+#enter, #clear{
+    background-color: #c7660b;
+    color: white;
+    font-size: 50px;
+}
+
+button:hover{
+    background-color: white;
+    color: #1a1919;
+    font-weight: bold;
+}
+
+#enter:hover, #clear:hover{
+    background-color: white;
+    color: #c7660b;
+}
+
+#copy{
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 9px;
+    border: 2px solid;
+    height: 45px;
+}

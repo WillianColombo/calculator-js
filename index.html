@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - HTML, JavaScript e Css</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <script src="calc.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <section id="section-display">
+            <input type="text" id="input-calc" name="input-calc"> <br>
+                <input type="text" id="output-calc" name="output-calc" disabled>
+                <button id="copy">Copy</button>
+        </section>
+
+        <hr>
+
+        <section id="section-keys">
+            <button id="clear" data-value="c">C</button>
+            <button class="keys" data-value=" ( ">(</button>
+            <button class="keys" data-value=" ) ">)</button>
+            <button class="keys" data-value=" / ">/</button>
+            <button class="keys" data-value="7">7</button>
+            <button class="keys" data-value="8">8</button>
+            <button class="keys" data-value="9">9</button>
+            <button class="keys" data-value=" * ">*</button>
+            <button class="keys" data-value="4">4</button>
+            <button class="keys" data-value="5">5</button>
+            <button class="keys" data-value="6">6</button>
+            <button class="keys" data-value=" - ">-</button>
+            <button class="keys" data-value="1">1</button>
+            <button class="keys" data-value="2">2</button>
+            <button class="keys" data-value="3">3</button>
+            <button class="keys" data-value=" + ">+</button>
+            <button class="keys" data-value=".">.</button>
+            <button class="keys" data-value="0">0</button>
+            <button id="backspace"><-</button>
+            <button id="enter">=</button>
+        </section>
+    </main>
+</body>
+
+</html>
